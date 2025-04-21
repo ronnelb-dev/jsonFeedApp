@@ -58,15 +58,19 @@ jsonFeedApp/src/
 - React Native CLI
 - Android Studio or Xcode (for emulator/device)
 
-```bash
 ### 1. Clone the Repository
+```bash
 git clone https://github.com/ronneb-dev/jsonFeedApp.git
 cd jsonFeedApp
+```
 
 ### 2. Install Dependencies
+```bash
 npm install
+```
 
 ### 3. Run on Android or iOS
+```bash
 npx react-native run-android  # or run-ios
 ```
 
