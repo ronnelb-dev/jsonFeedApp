@@ -23,14 +23,15 @@ A React Native mobile app that fetches and displays a list of JSON posts with su
 jsonFeedApp/src/
 ├── components/
 │   ├── PostCard.tsx       # Renders each post in a card format
-│   └── SearchBar.tsx      # Search input with debounce
+│   ├── SearchBar.tsx      # Search input with debounce
+│   └── HightlightedText.tsx      # Highlight matched searched text
 ├── screens/
 │   ├── HomeScreen.tsx     # Main screen with list + search
 │   └── DetailScreen.tsx   # Detailed view for a single post
 ├── types/
 │   └── index.ts           # TypeScript types for posts and navigation
 ├── utils/
-│   └── fetchPosts.ts      # API call logic (mock or real)
+│   └── fetchPosts.ts      # API call logic (mock)
 ├── App.tsx                # Root component with navigation
 ```
 
@@ -71,7 +72,7 @@ npm install
 
 ### 3. Run on Android or iOS
 ```bash
-npx react-native run-android  # or run-ios
+npx react-native run-android
 ```
 
 > Make sure you have the React Native CLI and environment set up: https://reactnative.dev/docs/environment-setup
