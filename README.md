@@ -61,7 +61,7 @@ jsonFeedApp/src/
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/ronneb-dev/jsonFeedApp.git
+git clone https://github.com/ronnelb-dev/jsonFeedApp.git
 cd jsonFeedApp
 ```
 
